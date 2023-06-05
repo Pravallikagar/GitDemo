@@ -25,6 +25,17 @@ import org.testng.annotations.Test;
 	    desiredCapabilities.setCapability("appium:nativeWebScreenshot", true);
 	    desiredCapabilities.setCapability("appium:newCommandTimeout", 3600);
 	    desiredCapabilities.setCapability("appium:connectHardwareKeyboard", true);
+	    
+	    
+	    DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+	    desiredCapabilities.setCapability("appium:app", "C:\\\\Users\\\\Dell\\\\eclipse-workspace\\\\Automation\\\\src\\\\test\\\\java\\\\Resources\\\\ApiDemos-debug.apk");
+	    desiredCapabilities.setCapability("appium:deviceName", "Pravallikaemulator");
+	    desiredCapabilities.setCapability("platformName", "Android");
+	    desiredCapabilities.setCapability("appium:automationName", "UIAutomator2");
+	    desiredCapabilities.setCapability("appium:ensureWebviewsHavePages", true);
+	    desiredCapabilities.setCapability("appium:nativeWebScreenshot", true);
+	    desiredCapabilities.setCapability("appium:newCommandTimeout", 3600);
+	    desiredCapabilities.setCapability("appium:connectHardwareKeyboard", true);
 
 	    URL remoteUrl = new URL("http://127.0.0.1:4723/");
 
