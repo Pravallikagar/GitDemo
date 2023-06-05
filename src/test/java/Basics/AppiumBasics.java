@@ -22,6 +22,8 @@ public class AppiumBasics {
 		
 		
 		UiAutomator2Options options =new UiAutomator2Options();
+		UiAutomator2Options options =new UiAutomator2Options();
+		UiAutomator2Options options =new UiAutomator2Options();
 		options.setDeviceName("Pravallikaemulator");
 		options.setApp("C:\\Users\\Dell\\eclipse-workspace\\Automation\\src\\test\\java\\Resources\\ApiDemos-debug.apk");
 		options.setApp("C:\\Users\\Dell\\eclipse-workspace\\Automation\\src\\test\\java\\Resources\\ApiDemos-debug.apk");
